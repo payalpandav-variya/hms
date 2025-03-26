@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 26, 2025 at 03:20 PM
+-- Generation Time: Mar 26, 2025 at 11:58 PM
 -- Server version: 8.0.31
 -- PHP Version: 7.4.33
 
@@ -52,17 +52,29 @@ INSERT INTO `doctors` (`id`, `username`, `password`, `department`) VALUES
 DROP TABLE IF EXISTS `patients`;
 CREATE TABLE IF NOT EXISTS `patients` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `username` varchar(255) NOT NULL,
+  `complain` text NOT NULL,
+  `department` varchar(255) NOT NULL,
+  `first_name` varchar(100) NOT NULL,
+  `last_name` varchar(100) NOT NULL,
+  `dob` date NOT NULL,
+  `phone_number` varchar(20) NOT NULL,
+  `username` varchar(50) NOT NULL,
   `password` varchar(255) NOT NULL,
-  PRIMARY KEY (`id`)
+  `report` text,
+  `disease` varchar(255) DEFAULT NULL,
+  `medicine` text,
+  `cured` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `phone_number` (`phone_number`),
+  UNIQUE KEY `username` (`username`)
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `patients`
 --
 
-INSERT INTO `patients` (`id`, `username`, `password`) VALUES
-(1, 'test', 'test');
+INSERT INTO `patients` (`id`, `complain`, `department`, `first_name`, `last_name`, `dob`, `phone_number`, `username`, `password`, `report`, `disease`, `medicine`, `cured`) VALUES
+(1, 'Palpitation', 'CARDIOLOGY', 'abc', 'abc', '2025-03-26', '1245', 'abc', 'abc', 'No Result Yet', 'No Result Yet', 'No Result Yet', 1);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
