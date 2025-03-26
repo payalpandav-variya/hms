@@ -20,7 +20,7 @@ public class Main extends Application {
             primaryStage.setTitle("Welcome");
             primaryStage.setScene(new Scene(root, 1200, 700));
 
-            primaryStage.getIcons().add(new Image("media/icon.png"));
+            primaryStage.getIcons().add(new Image("medias/icon.png"));
             primaryStage.getScene().getStylesheets().addAll(getClass().getResource("/style/style.css").toExternalForm());
 
             ////**********Move Window on Mouse Drag anywhere on the screen*****/////

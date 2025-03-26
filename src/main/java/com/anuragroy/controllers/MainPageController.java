@@ -81,7 +81,6 @@ public class MainPageController implements Initializable {
         pane3.setStyle("-fx-background-image: url(\"media/3.jpg\")");
         pane4.setStyle("-fx-background-image: url(\"media/4.jpg\")");
 
-        lblAbout.setText("");
         backgroundAnimation();
     }
 

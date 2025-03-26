@@ -157,7 +157,7 @@ public class PatientRegister implements Initializable {
             preparedStatement.setString(9, "No Result Yet");
             preparedStatement.setString(10, "No Result Yet");
             preparedStatement.setString(11, "No Result Yet");
-            preparedStatement.setString(12, "Not Set");
+            preparedStatement.setString(12, "1");
 
             preparedStatement.executeUpdate();
 
@@ -278,7 +278,6 @@ public class PatientRegister implements Initializable {
             lblErrors.setText("Server Error : Check");  //let user know error in establishing connection to database
         } else {
             lblErrors.setTextFill(Color.GREEN);
-            lblErrors.setText("Server is up : Good to go");  //let the user know connection to database is established
         }
 
         ///Register on pressing enter on Keyboard

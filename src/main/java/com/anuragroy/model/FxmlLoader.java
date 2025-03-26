@@ -40,7 +40,7 @@ public class FxmlLoader {
             }
 
             stage.initModality(Modality.APPLICATION_MODAL);
-            stage.getIcons().add(new Image("media/icon.png"));
+            stage.getIcons().add(new Image("medias/icon.png"));
             stage.getScene().getStylesheets().addAll(currentClass.getResource("/style/style.css").toExternalForm());
 
             ////**********Move Window on Mouse Drag anywhere on the screen - Not implemented now*****/////

@@ -83,13 +83,12 @@ public class DoctorLoginController implements Initializable {
         String password = txtPassword.getText();
         String department = dropDept.getValue();
 
-        String sql = "SELECT * FROM doctors Where username = ? and password = ? and department = ?";
+        String sql = "SELECT * FROM doctors Where username = ? and password = ?";
 
         try {
             preparedStatement = con.prepareStatement(sql);
             preparedStatement.setString(1, username);
             preparedStatement.setString(2, password);
-            preparedStatement.setString(3, department);
             resultSet = preparedStatement.executeQuery();
             if (!resultSet.next()) {
                 lblErrors.setTextFill(Color.TOMATO);
@@ -129,7 +128,6 @@ public class DoctorLoginController implements Initializable {
             lblErrors.setText("Server Error : Check");  //let user know error in establishing connection to database
         } else {
             lblErrors.setTextFill(Color.GREEN);
-            lblErrors.setText("Server is up : Good to go");  //let the user know connection to database is established
         }
 
         ///SignIn on pressing enter on Keyboard

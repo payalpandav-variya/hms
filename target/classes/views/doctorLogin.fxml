@@ -13,27 +13,23 @@
    <children>
       <ImageView fitHeight="834.0" fitWidth="565.0" layoutX="-22.0" layoutY="-69.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
-            <Image url="@../media/5.jpg" />
+            <Image url="@../medias/5.jpg" />
          </image>
       </ImageView>
-      <Pane layoutX="50.0" layoutY="68.0" opacity="0.78" prefHeight="698.0" prefWidth="456.0" style="-fx-background-color: #000000;">
+      <Pane layoutX="50.0" layoutY="68.0" opacity="0.78" prefHeight="698.0" prefWidth="456.0" >
          <children>
-            <Label alignment="CENTER" layoutX="87.0" layoutY="52.0" prefHeight="79.0" prefWidth="283.0" style="-fx-border-color: #ffffff;" text="Welcome, Doctor!" textAlignment="CENTER" textFill="WHITE">
+            <Label alignment="CENTER" layoutX="87.0" layoutY="52.0" prefHeight="79.0" prefWidth="283.0" style="-fx-border-color: #161616;" text="Login" textAlignment="CENTER" textFill="#161616">
                <font>
                   <Font name="Calibri Bold" size="30.0" />
                </font>
             </Label>
-            <Label alignment="CENTER" layoutX="58.0" layoutY="153.0" prefHeight="47.0" prefWidth="341.0" text="Sign-in to start your session." textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Label>
-            <JFXTextField fx:id="txtUsername" focusColor="#ffffff80" labelFloat="true" layoutX="87.0" layoutY="330.0" prefHeight="47.0" prefWidth="283.0" promptText="USERNAME" style="-fx-background-color: #ffffff22; -fx-background-radius: 50px; -fx-text-fill: #fff; -fx-prompt-text-fill: #fff; -fx-font-size: 18px;" unFocusColor="#ffffff00">
+
+            <JFXTextField fx:id="txtUsername" focusColor="#161616" labelFloat="true" layoutX="87.0" layoutY="330.0" prefHeight="47.0" prefWidth="283.0" promptText="USERNAME" style="-fx-background-color: #ffffff22; -fx-background-radius: 50px; -fx-text-fill: #fff; -fx-prompt-text-fill: #fff; -fx-font-size: 18px;" unFocusColor="#ffffff00">
                <padding>
                   <Insets left="10.0" />
                </padding>
             </JFXTextField>
-            <JFXPasswordField fx:id="txtPassword" focusColor="#ffffff80" labelFloat="true" layoutX="87.0" layoutY="417.0" prefHeight="47.0" prefWidth="283.0" promptText="PASSWORD" style="-fx-background-color: #ffffff22; -fx-background-radius: 50px; -fx-text-fill: #fff; -fx-prompt-text-fill: #fff; -fx-font-size: 18px;" unFocusColor="#ffffff00">
+            <JFXPasswordField fx:id="txtPassword" focusColor="#161616" labelFloat="true" layoutX="87.0" layoutY="417.0" prefHeight="47.0" prefWidth="283.0" promptText="PASSWORD" style="-fx-background-color: #ffffff22; -fx-background-radius: 50px; -fx-text-fill: #fff; -fx-prompt-text-fill: #fff; -fx-font-size: 18px;" unFocusColor="#ffffff00">
                <padding>
                   <Insets left="10.0" />
                </padding>
@@ -42,7 +38,7 @@
             <JFXButton fx:id="btnMain" layoutX="163.0" layoutY="624.0" onAction="#handleButtonClicks" prefHeight="41.0" prefWidth="130.0" style="-fx-background-color: #ff3f3f; -fx-background-radius: 10;" text="GO BACK" textFill="WHITE" />
             <Separator layoutX="58.0" layoutY="216.0" prefHeight="1.0" prefWidth="341.0" />
             <Separator layoutX="58.0" layoutY="589.0" prefHeight="1.0" prefWidth="341.0" />
-            <JFXComboBox id="combo-box" fx:id="dropDept" focusColor="#ffffff80" labelFloat="true" layoutX="87.0" layoutY="237.0" pickOnBounds="false" prefHeight="47.0" prefWidth="283.0" promptText="Select Department" stylesheets="@../style/style.css" unFocusColor="#ffffff80" visibleRowCount="12" />
+            <JFXComboBox id="combo-box" fx:id="dropDept" focusColor="#161616" labelFloat="true" layoutX="87.0" layoutY="237.0" pickOnBounds="false" prefHeight="47.0" prefWidth="283.0" promptText="Select Department" stylesheets="@../style/style.css" unFocusColor="#161616" visibleRowCount="12" />
             <Label fx:id="lblErrors" alignment="CENTER" layoutX="58.0" layoutY="464.0" prefHeight="47.0" prefWidth="341.0" text="Errors" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font size="18.0" />

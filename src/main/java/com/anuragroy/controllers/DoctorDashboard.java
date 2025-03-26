@@ -315,7 +315,6 @@ public class DoctorDashboard implements Initializable {
             lblErrors.setText("Server Error : Check");  //let user know error in establishing connection to database
         } else {
             lblErrors.setTextFill(Color.GREEN);
-            lblErrors.setText("Server is up, All Good!");  //let the user know connection to database is established
         }
 
         btnDel.setDisable(true);

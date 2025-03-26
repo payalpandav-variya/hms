@@ -125,7 +125,6 @@ public class PatientLoginController implements Initializable {
             lblErrors.setText("Server Error : Check");  //let user know error in establishing connection to database
         } else {
             lblErrors.setTextFill(Color.GREEN);
-            lblErrors.setText("Server is up : Good to go");  //let the user know connection to database is established
         }
 
         ///SignIn on pressing enter on Keyboard
