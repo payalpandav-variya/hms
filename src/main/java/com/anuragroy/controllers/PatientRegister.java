@@ -1,6 +1,6 @@
-package com.anuragroy.controllers;
+package com.hms.controllers;
 
-import com.anuragroy.model.DeptSelector;
+import com.hms.model.DeptSelector;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXPasswordField;
@@ -15,8 +15,8 @@ import javafx.scene.control.Label;
 import javafx.scene.input.KeyCode;
 import javafx.scene.paint.Color;
 import javafx.util.Duration;
-import com.anuragroy.entities.DBConnection;
-import com.anuragroy.model.FxmlLoader;
+import com.hms.entities.DBConnection;
+import com.hms.model.FxmlLoader;
 
 import java.net.URL;
 import java.sql.Connection;

@@ -1,4 +1,4 @@
-package com.anuragroy.controllers;
+package com.hms.controllers;
 
 import com.jfoenix.controls.JFXButton;
 import javafx.animation.FadeTransition;
@@ -10,7 +10,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.util.Duration;
-import com.anuragroy.model.FxmlLoader;
+import com.hms.model.FxmlLoader;
 
 import java.net.URL;
 import java.util.ResourceBundle;

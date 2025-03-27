@@ -10,7 +10,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="872.0" prefWidth="1200.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.anuragroy.controllers.PatientDashboard">
+<AnchorPane prefHeight="872.0" prefWidth="1200.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hms.controllers.PatientDashboard">
    <children>
       <ImageView fitHeight="300.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
          <image>

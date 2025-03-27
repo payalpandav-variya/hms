@@ -1,9 +1,9 @@
-package com.anuragroy.controllers;
+package com.hms.controllers;
 
-import com.anuragroy.entities.DBConnection;
-import com.anuragroy.model.SessionSaver;
-import com.anuragroy.model.DeptSelector;
-import com.anuragroy.model.FxmlLoader;
+import com.hms.entities.DBConnection;
+import com.hms.model.SessionSaver;
+import com.hms.model.DeptSelector;
+import com.hms.model.FxmlLoader;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXPasswordField;

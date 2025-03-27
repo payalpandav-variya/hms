@@ -1,4 +1,4 @@
-package com.anuragroy.controllers;
+package com.hms.controllers;
 
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
@@ -6,9 +6,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.paint.Color;
-import com.anuragroy.entities.DBConnection;
-import com.anuragroy.model.SessionSaver;
-import com.anuragroy.model.FxmlLoader;
+import com.hms.entities.DBConnection;
+import com.hms.model.SessionSaver;
+import com.hms.model.FxmlLoader;
 
 import java.net.URL;
 import java.sql.Connection;

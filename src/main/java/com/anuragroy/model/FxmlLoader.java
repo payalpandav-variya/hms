@@ -1,4 +1,4 @@
-package com.anuragroy.model;
+package com.hms.model;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

@@ -1,4 +1,4 @@
-package com.anuragroy.model;
+package com.hms.model;
 
 
 //THIS CLASS SAVES CERTAIN DETAILS OF A LOGIN SESSION

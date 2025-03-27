@@ -11,7 +11,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="744.0" prefWidth="1346.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.anuragroy.controllers.PatientRegister">
+<AnchorPane prefHeight="744.0" prefWidth="1346.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hms.controllers.PatientRegister">
    <children>
       <ImageView fitHeight="744.0" fitWidth="993.0" pickOnBounds="true" preserveRatio="true">
          <image>

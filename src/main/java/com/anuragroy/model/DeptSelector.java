@@ -1,4 +1,4 @@
-package com.anuragroy.model;
+package com.hms.model;
 
 public class DeptSelector {
     ///String array to save the departments

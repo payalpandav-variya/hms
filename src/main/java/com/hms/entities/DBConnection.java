@@ -1,4 +1,4 @@
-package com.anuragroy.entities;
+package com.hms.entities;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
